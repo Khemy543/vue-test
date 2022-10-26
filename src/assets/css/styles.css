@@ -1,0 +1,27 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #ECECEC;
+  min-height: 100vh;
+}
+
+.container .content {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E2E4;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.products-container {
+  display: grid;
+}
